@@ -1,0 +1,52 @@
+pipeline {
+  agent any
+
+  environment {
+    APP_NAME = "devops-portfolio"
+  }
+
+  stages {
+    stage('Checkout') {
+      steps {
+        checkout scm
+      }
+    }
+
+    stage('Build') {
+      steps {
+        echo "Build stage for ${APP_NAME}"
+        sh 'echo Building...'
+      }
+    }
+
+    stage('Unit Tests') {
+      steps {
+        echo "Running unit tests"
+        sh 'echo Running tests...'
+      }
+    }
+
+    stage('Security Scan') {
+      steps {
+        echo "Basic security checks (example placeholder)"
+        sh 'echo Scanning...'
+      }
+    }
+
+    stage('Deploy') {
+      steps {
+        echo "Deployment stage (example placeholder)"
+        sh 'echo Deploying...'
+      }
+    }
+  }
+
+  post {
+    success {
+      echo "Pipeline completed successfully"
+    }
+    failure {
+      echo "Pipeline failed"
+    }
+  }
+}
