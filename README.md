@@ -11,6 +11,11 @@ Senior DevOps / SRE Engineer with hands-on experience managing production cloud 
 - Security: IAM hardening, encryption, secrets management, DevSecOps practices
 - OS & Automation: Linux, shell scripting, cron scheduling
 
+## Containerization & Orchestration
+- Built Docker images using optimized Dockerfiles
+- Deployed containerized workloads using Kubernetes Deployments and Services
+- Configured replicas, resource limits, and labels for scalability and reliability
+
 ## Key Experience Highlights
 - Automated AWS infrastructure provisioning using Terraform for Dev, UAT, and Production environments
 - Designed and supported CI/CD pipelines with automated builds, testing, and controlled deployments
