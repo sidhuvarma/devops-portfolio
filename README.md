@@ -9,7 +9,7 @@ Senior DevOps / SRE Engineer with hands-on experience managing production cloud 
 - Containers: Docker, Kubernetes
 - Monitoring & Logging: CloudWatch, Dynatrace, Prometheus, Grafana, ELK
 - Security: IAM hardening, encryption, secrets management, DevSecOps practices
-- OS & Automation: Linux, shell scripting, cron scheduling
+- OS & Automation: Linux, shell scripting, cron scheduling.
 
 ## Containerization & Orchestration
 - Built Docker images using optimized Dockerfiles
